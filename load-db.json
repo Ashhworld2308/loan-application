@@ -177,14 +177,71 @@
             "id":1,
             "loan": {
                 "id": 1,
-                "name": "Car Loan"
+                "name": "Car Loan",
+                "status": "pending",
+                "logs": [
+                    {
+                        "sequence": 1,
+                        "status": "REQUESTED",
+                        "message": "Car Loan Requested",
+                        "updatedDate": "20-08-2023 11:00:00 PM"
+                    },
+                    {
+                        "sequence": 2,
+                        "status": "PENDING",
+                        "message": "Its assigned to Ashu",
+                        "updatedDate": "21-08-2023 11:00:00 PM"
+                    },
+                    {
+                        "sequence": 3,
+                        "status": "APPROVED",
+                        "message": "Documents verified",
+                        "updatedDate": "01-09-2023 11:00:00 PM"
+                    }
+                ]
             },
             "userDetail": {
                 "name": "balaji",
                 "email": "balaji@gmail.com",
                 "role": "customer",
                 "loanBranch": "bangalore",
+                "id": 1,
+                "userTypeId": 1
+            },
+            "userId": 1
+        },
+        {
+            "id":2,
+            "loan": {
+                "id": 2,
+                "name": "Home Loan",
                 "status": "pending",
+                "logs": [
+                    {
+                        "sequence": 1,
+                        "status": "REQUESTED",
+                        "message": "Home Loan Requested",
+                        "updatedDate": "20-08-2023 11:00:00 PM"
+                    },
+                    {
+                        "sequence": 2,
+                        "status": "PENDING",
+                        "message": "Its assigned to Ashlesh",
+                        "updatedDate": "21-08-2023 11:00:00 PM"
+                    },
+                    {
+                        "sequence": 3,
+                        "status": "REJECTED",
+                        "message": "Documents not verified",
+                        "updatedDate": "01-09-2023 11:00:00 PM"
+                    }
+                ]
+            },
+            "userDetail": {
+                "name": "balaji",
+                "email": "balaji@gmail.com",
+                "role": "customer",
+                "loanBranch": "bangalore",
                 "id": 1,
                 "userTypeId": 1
             },
